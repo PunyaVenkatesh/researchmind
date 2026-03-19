@@ -1,3 +1,14 @@
+---
+title: ResearchMind
+emoji: 🔬
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.55.0
+app_file: app.py
+pinned: false
+---
+
 # ResearchMind — Agentic AI Assistant for Scientific Discovery
 
 An agentic AI system that helps researchers explore academic literature, 
