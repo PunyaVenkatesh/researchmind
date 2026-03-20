@@ -31,7 +31,7 @@ if "hypothesis" not in st.session_state:
 with st.sidebar:
     st.header("Search Research Papers")
     topic = st.text_input("Enter a research topic", placeholder="e.g. large language models")
-    max_results = st.slider("Number of papers", min_value=3, max_value=10, value=5)
+    max_results = st.slider("Number of papers", min_value=3, max_value=100, value=5)
     search_btn = st.button("Search arxiv", use_container_width=True)
 
     if search_btn and topic:
